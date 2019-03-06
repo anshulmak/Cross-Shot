@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C284F"
+    tools:context="com.crossshot.CrossShot1.splashscreen">
+
+    <VideoView
+        android:id="@+id/videoView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/buttonshape4"
+        android:text="&gt;&gt;"
+        android:textColor="#ffffff"
+        android:textSize="59sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/videoView4"
+        android:layout_alignEnd="@+id/videoView4"
+        android:layout_marginRight="98dp"
+        android:layout_marginEnd="98dp" />
+
+</RelativeLayout>

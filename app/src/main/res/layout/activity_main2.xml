@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C284F"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:background="@drawable/buttontype1"
+        android:text="VS                  PLAYER"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="167dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:text="VS                  COMPUTER"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:background="@drawable/buttontype1"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="251dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttontype1"
+        android:text="EXIT"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="115dp"
+        android:background="@drawable/crossshot"
+        android:text="Cross Shot"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#43CAD9"
+        android:shadowDx="1"
+        android:shadowDy="3"
+        android:shadowRadius="7"
+        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_alignEnd="@+id/button"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttontype1"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignTop="@+id/exit"
+        android:text="How To          Play" />
+
+    <Button
+        android:id="@+id/rate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttontype6"
+        android:text="RATE US"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button4"
+        android:layout_toStartOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="Share"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttontype5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.inmobi.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1C284F"
+    tools:context="com.crossshot.CrossShot1.instructions"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textAlignment="center"
+        android:textSize="45sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <com.inmobi.ads.InMobiBanner
+        android:id="@+id/banner"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:placementId="1511468039182"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# THE PLAYER CAN ONLY SHOOT STICKS OF SAME ROW IN ONE CHANCE."
+        android:textSize="16sp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# AFTER THE PLAYER HAS SHOT THE DESIRED NUMBER OF STICKS,THEY HAVE TO SUBMIT THEIR TURN."
+        android:textSize="16sp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# THE PLAYER HAS TO LEAVE ONE STICK IN THE WHOLE GAME TO WIN ."
+        android:textSize="16sp"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:background="@drawable/buttontype2"
+        android:text="@string/tutorial"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="!! NO DRAWS,ONLY WINNERS !!"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:textSize="22sp"
+        android:textColor="#27b0cc"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="# YOU CAN ALSO START A BEST OF 3 TOURNAMENT BY TAPPING ROUND OF 3"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="# WHEN PLAYING AGAINST THE COMPUTER, THE A.I. GETS SMATTER WITH EACH PLAYER VICTORY"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

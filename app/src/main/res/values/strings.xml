@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CrossShot</string>
+    <string name="player2">PLAYER 2</string>
+    <string name="tutorial">Start Tutorial</string>
+    <string name="player2wins">Player 2</string>
+    <string name="player1">PLAYER 1</string>
+    <string name="player1wins">Player 1</string>
+    <string name="Winner">WINNER</string>
+    <string name="Loser">LOSER</string>
+    <string name="computer">VS COMPUTER MODE</string>
+    <string name="normal">NORMAL MODE</string>
+    <string name="roundof3">ROUND OF 3</string>
+</resources>
